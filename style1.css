@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.hdg>h3{
+    color: #7e3030; 
+    text-decoration: underline 2px solid #7e3030;
+}
+.carousel-indicators .active {
+    background: rgb(63, 7, 7) !important;
+}
+#carousel .carousel-indicators button {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   border: 1px solid rgb(148, 147, 147);
+   background: transparent;
+   margin-right: 30px;
+}
+.c1{
+    font-size: small;
+}
+.card{
+    border-radius: 0px;
+}
+.card img{
+    border-radius: 0px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    color: white;
+    background-color: #7e3030;
+    border-radius: 100%;
+    font-size: larger;
+    width: 40px;
+    height: 40px;
+}
+.carousel-control-prev-icon{
+    margin-left: -300px;
+}
+.carousel-control-next-icon{
+    margin-right: -300px;
+}

@@ -1,0 +1,583 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#nav1{
+    background-color: #ffedf9;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.carousel-indicators .active {
+    background: rgb(63, 7, 7) !important;
+}
+#mycarousel1 .carousel-indicators button {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   border: 1px solid rgb(148, 147, 147);
+   background: transparent;
+   margin-right: 30px;
+}
+#mycarousel2 .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid rgb(148, 147, 147);
+    background: transparent;
+    margin-right: 30px;
+}
+#mycarousel3 .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid rgb(148, 147, 147);
+    background: transparent;
+    margin-right: 30px;
+}
+#mycarousel4 .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid rgb(148, 147, 147);
+    background: transparent;
+    margin-right: 30px;
+}
+#camera,#voice,#search{
+    position: absolute;
+}
+#camera{
+    left: 860px;
+    top: 26px;
+}
+#voice{
+    left: 900px;
+    top: 26px;
+}
+#search{
+    left: 930px;
+    top: 26px;
+}
+#diamond{
+    position: absolute;
+    left: 28px;
+    top: 13px;
+}
+#diamond-txt{
+    position: absolute;
+    top: 15px;
+    font-size: small;
+}
+#store{
+    position: absolute;
+    top: 13px;
+    left: 108px;
+}
+#store-txt{
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    font-size: small;
+}
+#acnt{
+    position: absolute;
+    top: 13px;
+    left: 192px;
+}
+#acnt-txt{
+    position: absolute;
+    top: 15px;
+    left: 165px;
+    font-size: small;
+}
+#heart{
+    position: absolute;
+    top: 13px;
+    left: 282px;
+}
+#heart-txt{
+    position: absolute;
+    top: 15px;
+    left: 255px;
+    font-size: small;
+}
+#cart{
+    position: absolute;
+    top: 13px;
+    left: 350px;
+}
+#cart-txt{
+    position: absolute;
+    top: 15px;
+    left: 340px;
+    font-size: small;
+}
+.badge{
+    background-color: #825151;
+    position: absolute;
+    left: 363px;
+    top: -8px;
+}
+.nav-link{
+    font-size: 15px;
+    color: #412727;
+}
+.links2:hover{
+    font-size: medium;
+    text-decoration: underline 3px #7e3030;
+    color: #7e3030;
+}
+#diamond-txt:hover{
+    font-size:15px ;
+    transition: font-size 1s;
+}
+#store-txt:hover{
+    font-size:15px ;
+    transition: font-size 1s;
+}
+#acnt-txt:hover{
+    font-size:15px ;
+    transition: font-size 1s;
+}
+#heart-txt:hover{
+    font-size:15px ;
+    transition: font-size 1s;
+}
+#cart-txt:hover{
+    font-size:15px ;
+    transition: font-size 1s;
+}
+.line1>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .0313rem;
+    font-weight: 600;
+    color: #761111;
+}
+.line1>p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.card{
+    border-radius: 0px;
+    padding: 0px;
+}
+.card img{
+    border-radius: 0px;
+}
+.card1 .c1{
+    color: red;
+    font-size: small;
+    font-weight: 500;
+}
+.c1+h6{
+    font-size: 14px;
+}
+.c1~.card-text{
+    font-size: medium;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.s1{
+    color: rgb(128, 128, 127);
+    font-size: small;
+    font-weight: 700;
+    word-spacing: 5px;
+    margin-left: 8px;
+}
+.card2{
+    border-radius: 3px;
+    border-color: #dddddd;
+}
+.card2>img{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.card2 h5{
+    color: #7e3030;
+    opacity: .9;
+    font-size: 18px;
+}
+.card2 a{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.card2 a:hover{
+    word-spacing: 50px;
+    color: #844545;
+    transition: 0.5s;
+}
+.card2>.card-body:hover{
+    background-color: white;
+    box-shadow:  0px 5px 5px 0px rgb(242, 223, 223);
+}
+.card3{
+    border-radius: 5px;
+}
+.card3>img{
+    height: 320px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.card3 h5{
+    color: #7e3030;
+    font-size: 18.5px;
+    font-weight: bold;
+}
+.card3 a{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.card3>.card-body:hover{
+    background-color: white;
+    box-shadow:  0px 12px 10px 0px rgb(242, 223, 223);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card3 a:hover{
+    color: #7e3030;
+    transition: 1s;
+}
+.card3 .cd3>.s2{
+    color: #7e3030;
+    font-size: larger;
+    font-weight: bolder;
+}
+.card4 .c-p{
+    color: red;
+    font-size: small;
+    font-weight: 500;
+    margin-top: -15px;
+}
+.card4 h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -12px;
+}
+.card4 .off{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 34px;
+    color: red
+}
+.c-p~.card-text{
+    font-size: medium;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.small{
+    color: rgb(128, 128, 127);
+    font-size: small;
+    font-weight: 700;
+    word-spacing: 5px;
+    margin-left: 8px;
+}
+.card5 h5{
+    font-size: 13.5px;
+    font-weight: 700;
+    margin-top: -8px;
+}
+.card5 .card-text{
+    font-size: medium;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.sm{
+    color: rgb(128, 128, 127);
+    font-size: small;
+    font-weight: 700;
+    word-spacing: 5px;
+    margin-left: 8px;
+}
+del{
+    color: rgb(128, 128, 127);
+}
+.card6{
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+.card6 img{
+    border-radius: 5px;
+}
+.card6 .card-link{
+    color: #761111;
+    border: 1px solid #761111;
+    background-color: white;
+    margin-top: 280px;
+    font-weight: 600;
+    opacity: .8;
+}
+.card6 .btn:hover{
+    background-color: #761111;
+    color: white;
+}
+.card7{
+    border-radius: 5px;
+}
+.card7 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card7 .card-title{
+    color: #7e3030;
+    font-size: 18.5px;
+    font-weight: bold;
+}
+.card7 a{
+    color: gray;
+    font-size: 15px;
+}
+.card7>.card-body:hover{
+    background-color: white;
+    box-shadow:  0px 12px 10px 0px rgb(242, 223, 223);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card7 a:hover{
+    color: #7e3030;
+    word-spacing: 220px;
+    transition: .9s;
+
+}
+#workwear p{
+    font-size: 13.5px;
+    margin-top:10px;
+}
+.look p{
+    font-size: 13.5px;
+    margin-top:12px;
+}
+.cam p{
+    font-size: 13.5px;
+    margin-top:15px;
+    padding: 7px;
+}
+#workwear img{
+    border: 3px solid #7e3030;
+    padding: 7px;
+    margin-top: -20px;
+}
+.look img{
+    border: 3px solid #7e3030;
+    padding: 7px;
+}
+.card8 .card-title{
+    font-size: 12px;
+}
+.card8 .hdg{
+    font-size: 17px;
+    font-weight: 640;
+}
+.card8 .hdng{
+    font-size: 22px;
+    margin-top: 80px;
+    line-height: 100px;
+}
+.card8 .link8{
+    background-color: #7e3030;
+    color: white;
+}
+.video{
+    border-radius: 40px;
+
+}
+.video>video{
+    border-radius: 40px;
+}
+.video a{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 1px solid #7e3030;
+}
+.video a:hover{
+    background-color: #7e3030;
+    color: white;
+    transition: .5s;
+}
+
+.rivaah .btn{
+    border: 1px solid #7e3030;
+    color: #7e3030;
+}
+.rivaah .btn:hover{
+    background-color: #7e3030;
+    color: white;
+    font-weight: 500;
+}
+
+.guide{
+    position: relative;
+    width: 460px;
+    height: 185px;
+    border: 1px solid #7e3030;
+    border-radius: 5px;
+    background-image: url('https://cdn.vectorstock.com/i/500p/19/00/bright-dotted-gradient-background-white-and-grey-vector-20161900.jpg');
+}
+.guide h2{
+    position: absolute;
+    top: 50px;
+    color: #7e3030;
+    left: 20px;
+    font-size: 25px;
+}
+.guide .explore{
+    position: absolute;
+    top: 95px;
+    color: #7e3030;
+    left: 20px;
+    background-color: rgb(243, 217, 235);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0px;
+}
+.guide i{
+    position: absolute;
+    top: 115px;
+    left: 100px;
+}
+.guide .g-img1{
+    position: absolute;
+    left: 200px;
+    top: -18px;
+}
+.guide .g-img2{
+    position: absolute;
+    left: 280px;
+    top: -10px;
+}
+.guide a:hover{
+    word-spacing: 190px;
+    transition: .5s;
+    background-color: rgb(243, 217, 235);
+    color: #7e3030;
+    border-radius: 0px;
+}
+
+.box{
+    position: relative;
+    height: 180px;
+    border-radius: 5px;
+    width: 410px;
+    background-image: url('https://img.freepik.com/premium-photo/seamless-texture-white-cement-wall-rough-surface-with-space-text-backgroundx9_661047-2798.jpg');
+}
+.box h5{
+    position: absolute;
+    color: #7e3030;
+    top: 25px;
+    left: 25px;
+}
+.box h3{
+    position: absolute;
+    color: #7e3030;
+    top: 50px;
+    left: 25px;
+}
+.box button{
+    position: absolute;
+    color: #7e3030;
+    top: 110px;
+    left: 25px;
+    background-color: rgb(243, 217, 235);
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    word-spacing: 20px;
+    border-radius: 0px;
+}
+.box button:hover{
+    word-spacing: 275px;
+    transition: 0.5s;
+    background-color: rgb(243, 217, 235);
+    color: #7e3030;
+    border-radius: 0px;
+    z-index: 1;
+}
+.box .b-img1{
+    position: absolute;
+    left: 270px;
+    top: 30px;
+}
+.box .b-img2{
+    position: absolute;
+    left: 220px;
+    top: 8px;
+}
+.box .b-img3{
+    position: absolute;
+    left: 220px;
+    top: 8px;
+}
+.footer>h5{
+    color: #7e3030;
+}
+.footer a{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 17.5px;
+}
+.footer a:hover{
+    text-decoration: underline solid;
+    font-weight: 500;
+}
+.flw>span{
+    font-weight: 500;
+    font-size: larger;
+}
+.payment>.mscard{
+    height: 50px;
+    margin-top: 5px;
+}
+.payment>.paypal{
+    margin-top: 30px;
+}
+.payment>.maestro{
+    height: 50px;
+    margin-top: 5px;
+}
+.payment>.rupay{
+    width: 100px;
+    margin-top: -12px;
+}
+.payment>.axis{
+    margin-top: 15px;
+}
+.payment>.icici{
+    margin-top: 15px;
+}
+.payment>.express{
+    margin-top: 15px;
+    width: 40px;
+}
+.payment>.dclub{
+    margin-top: -5px;
+}
+.rights>p{
+    color: #7e3030;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.last>a{
+    color: #7e3030;
+    font-size: 12px;
+    margin-top: -8px;
+}
+.last>.t-c{
+    border-right: 1px solid #7e3030;
+    padding-right: 5px;
+}
+.last>.pp{
+    border-right: 1px solid #7e3030;
+    padding-right: 5px;
+}
